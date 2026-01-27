@@ -8,7 +8,7 @@ Evidencias de Desarrollo
 
 1. Explorando Arreglos
 Definición de un arreglo de 5 elementos, acceso al tercer elemento y manipulación con push() y pop().
-1.Explorando-arreglos-en-JavaScriptr.jpg
+![Punto 1](./1.Explorando-arreglos-en-JavaScriptr.jpg)
 
 2. Iterando sobre un Arreglo
 Comparación de recorrido de elementos usando un ciclo for tradicional y el método forEach().
