@@ -14,64 +14,64 @@ console.log("Después de pop():", misNumeros);
 
 
 //2. Iterando sobre un arreglo
-let valores = [5, 10, 15, 20];
+// let valores = [5, 10, 15, 20];
 
-// Ciclo for tradicional
-console.log("Iteración con ciclo for:");
-for (let i = 0; i < valores.length; i++) {
-    console.log("Número:", valores[i]);
-}
+// // Ciclo for tradicional
+// console.log("Iteración con ciclo for:");
+// for (let i = 0; i < valores.length; i++) {
+//     console.log("Número:", valores[i]);
+// }
 
-// Método forEach()
-console.log("Iteración con forEach():");
-valores.forEach(num => {
-    console.log("Número:", num);
-});
-
-
-//3. Operaciones con Arreglos
-let listaA = [1, 2, 3, 11, 15];
-let listaB = [3, 4, 5, 20];
-
-// Se concatenan dos arreglos
-let unionConcatenada = listaA.concat(listaB);
-console.log("Arreglos concatenados:", unionConcatenada);
-
-// Se encuentran la diferencia (elementos en listaA que NO están en listaB)
-let diferencia = listaA.filter(n => !listaB.includes(n));
-console.log("Diferencia (A - B):", diferencia);
-
-// Filtro: Solo números mayores a 10
-let mayoresDiez = unionConcatenada.filter(n => n > 10);
-console.log("Números mayores a 10:", mayoresDiez);
+// // Método forEach()
+// console.log("Iteración con forEach():");
+// valores.forEach(num => {
+//     console.log("Número:", num);
+// });
 
 
-//4. Aplicando Ciclos Iterativos
-// Ciclo while: Suma del 1 al 10
-let suma = 0;
-let contador = 1;
-while (contador <= 10) {
-    suma += contador;
-    contador++;
-}
-console.log("Resultado de la suma 1-10:", suma);
+// //3. Operaciones con Arreglos
+// let listaA = [1, 2, 3, 11, 15];
+// let listaB = [3, 4, 5, 20];
 
-// Ciclo do/while: Imprimir del 5 al 15
-let numDo = 5;
-console.log("Cuenta del 5 al 15:");
-do {
-    console.log(numDo);
-    numDo++;
-} while (numDo <= 15);
+// // Se concatenan dos arreglos
+// let unionConcatenada = listaA.concat(listaB);
+// console.log("Arreglos concatenados:", unionConcatenada);
 
-// For anidado: Tabla de multiplicar del 1 al 5
-console.log("Tablas de multiplicar:");
-for (let i = 1; i <= 5; i++) {
-    console.log(`--- Tabla del ${i} ---`);
-    for (let j = 1; j <= 10; j++) {
-        console.log(`${i} x ${j} = ${i * j}`);
-    }
-}
+// // Se encuentran la diferencia (elementos en listaA que NO están en listaB)
+// let diferencia = listaA.filter(n => !listaB.includes(n));
+// console.log("Diferencia (A - B):", diferencia);
+
+// // Filtro: Solo números mayores a 10
+// let mayoresDiez = unionConcatenada.filter(n => n > 10);
+// console.log("Números mayores a 10:", mayoresDiez);
+
+
+// //4. Aplicando Ciclos Iterativos
+// // Ciclo while: Suma del 1 al 10
+// let suma = 0;
+// let contador = 1;
+// while (contador <= 10) {
+//     suma += contador;
+//     contador++;
+// }
+// console.log("Resultado de la suma 1-10:", suma);
+
+// // Ciclo do/while: Imprimir del 5 al 15
+// let numDo = 5;
+// console.log("Cuenta del 5 al 15:");
+// do {
+//     console.log(numDo);
+//     numDo++;
+// } while (numDo <= 15);
+
+// // For anidado: Tabla de multiplicar del 1 al 5
+// console.log("Tablas de multiplicar:");
+// for (let i = 1; i <= 5; i++) {
+//     console.log(`--- Tabla del ${i} ---`);
+//     for (let j = 1; j <= 10; j++) {
+//         console.log(`${i} x ${j} = ${i * j}`);
+//     }
+// }
 
 
 // ¿Por qué es importante seguir estas prácticas?
