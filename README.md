@@ -19,7 +19,7 @@ Comparación de recorrido de elementos usando un ciclo for tradicional y el mét
 3.Operaciones con Arreglos
 Lógica para concatenar arreglos, encontrar diferencias y filtrar números mayores a 10.
 
-![Punto 3](./img/3.Operaciones-con-arreglos.jpg)
+![Punto 3](./img/3.Operaciones-con-Arreglos.jpg)
 
 4.Aplicando Ciclos Iterativos - Parte 1
 Uso de while para sumar del 1 al 10 y do/while para imprimir del 5 al 15.
